@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    font-family: 'Padauk', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: rgb(114, 114, 114);
+}
+.half-width{
+    width: 40%;
+    margin-left:5% ;
+    padding-left: 2%;   
+    float: left;
+
+}
+.half-width img{
+    width: 100%;
+    padding-top: 20px;
+}
+.blue-highlight{
+    color: rgb(0, 140, 255);
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    margin-bottom: 200px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, orange, red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.dream-bg{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experiance{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+}
+.experiance-aria{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(skyblue, blue);
+    border-image-slice: 1;
+}
+#baby-learn{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(255, 174, 142), rgb(253, 31, 2)) ;
+    border-image-slice:1;
+}
+.form-page{
+    text-align:left;
+    margin-left: 10%;
+    color: blue;
+    
+}
+.form-title{
+    font-size: 20px;
+    text-align:left;
+    border-radius: 5px;
+    margin-left: 10%;
+    padding: 2px;
+    color: white;
+    background-image: linear-gradient(90deg,skyblue, blue);
+}
+.footer{
+    text-align: center;
+}
